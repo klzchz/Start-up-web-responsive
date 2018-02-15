@@ -239,3 +239,177 @@ img{
  	margin-top: 2%;
  	color: rgba(255,255,255,0.7);
  }
+ /*MEDIA TYPES
+	screen
+	Para Monitores ou dispositivos com telas e 
+	resoluções adequda.
+	print
+	Para impressoras. Muito usado para dar uma versão
+	 de impressão do Site.
+ */
+/*MOBILE FIRST*/
+/*SMALL DEVICES*/
+
+@media screen and (min-width: 480px){
+	.logo {
+ 	width: 214px;
+ 	float: left;
+ 	background: url(../img/logo.png) center center/214px no-repeat;
+ }
+ 	.btn{
+ 		font-size: 2em;
+ 	}
+}
+
+/*SMALL DEVICES - TABLETS*/
+
+@media screen and (min-width: 768px){
+	.servico {
+		width: 49%;
+		float: left;
+		margin-right: 2%;
+	}
+	
+	.servico:nth-child(2){
+		margin-right: 0;
+	}
+
+	.title{
+		width: 70%;
+		float: left;
+		text-align: left;
+	}
+	.buttons{
+		width: 30%;
+		float: right;
+		margin-top: 0;
+	}
+
+
+	.newsletter input {
+ 		width:69%;
+ 		padding: 3%;
+ 		
+ 	
+ }
+ 	.newsletter button{
+	 	width: 29%;
+	 	padding: 3%;
+	
+ }
+}
+
+/*MEDIUM DEVICES - TABLETS & DESKTOPS*/
+
+@media screen and (min-width: 968px){
+	.servico {
+		width: 32%;
+		float: left;
+		margin-right: 2%;
+		
+	}
+	.servico:nth-child(2){
+		margin-right: 2%;
+	}
+	.servico:nth-child(3){
+		margin-right: 0;
+	}
+	
+	.title{
+		width: 70%;
+		float: left;
+		text-align: left;
+	}
+	.buttons{
+		width: 30%;
+		float: right;
+		margin-top: 0;
+	}
+
+	.newsletter form{
+		margin-top: 0;
+	}
+	.newsletter input {
+ 		width:60%;
+ 		padding: 2.2%;
+ 		
+ 	
+ }
+ 	.newsletter button{
+	 	width: 20%;
+	 	padding: 2.2%;
+	
+ }
+ 
+ .btn-menu{
+		display: none;
+	}
+	.btn-close{
+		display: none;
+	}
+	.menu{
+		width: auto;
+		height: 56px;
+		line-height: 56px;
+		float: right;
+		background-color: #f5f5f5;
+		display: block;
+		position: static;
+	}
+	.menu li{
+		padding: 0;
+		float: left;
+
+	}
+	.menu li a{
+		color: #130400;
+		font-size: 1em;
+		padding: 15px;
+
+	}
+	.menu li a:hover{
+		background: none;
+		border:none!important;
+		color: #da6709;
+		
+		
+	}
+	
+}
+
+/*LARGE DEVICES -  WIDE SCREEN*/
+
+@media screen and (min-width: 1280px){
+
+	.btn-menu{
+		display: none;
+	}
+	.btn-close{
+		display: none;
+	}
+	.menu{
+		width: auto;
+		height: 56px;
+		line-height: 56px;
+		float: right;
+		background-color: #f5f5f5;
+		display: block;
+		position: static;
+	}
+	.menu li{
+		padding: 0;
+		float: left;
+
+	}
+	.menu li a{
+		color: #130400;
+		font-size: 1em;
+		padding: 15px;
+
+	}
+	.menu li a:hover{
+		
+		
+		
+	}
+}
